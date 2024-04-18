@@ -1,0 +1,17 @@
+:root {
+  --color-purple: #7e44eb;
+  --color-purple-secondary: #7635e4;
+  --color-purple-dark: #692fcc;
+  --color-salmon: #ff7c87;
+  --color-black: #192b3e;
+  --color-grey: #c2cacc;
+  --color-white: #ffffff;
+  --color-header: var(--color-purple);
+  --color-header-buttons: var(--color-purple);
+  --color-header-contrast: var(--color-white);
+  &[data-header='white']{
+    --color-header: var(--color-white);
+    --color-header-buttons: var(--color-white);
+    --color-header-contrast: var(--color-purple);
+  }
+}
