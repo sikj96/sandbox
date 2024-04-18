@@ -12,14 +12,7 @@
 
 
 <script>
-import { colorBlack } from './assets/global/_background-color.scss';
-import './assets/global.scss';
 
-export default {
-  mounted() {
-    document.body.style.backgroundColor = colorBlack;
-  },
-}
 </script>
 
 <style lang="scss">
