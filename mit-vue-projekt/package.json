@@ -1,5 +1,5 @@
 {
-  "name": "mit-vue-projekt",
+  "name": "sandbox",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,7 +20,8 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "sass": "^1.75.0"
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.1"
   },
   "eslintConfig": {
     "root": true,
